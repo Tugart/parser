@@ -1,0 +1,23 @@
+acme_app_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeAppBundle:Default:index }
+
+calcrout:
+    path:     /calc
+    defaults: { _controller: AcmeAppBundle:Default:calc }
+
+result:
+    path:     /result
+    defaults: { _controller: AcmeAppBundle:Default:result }
+
+dbase:
+    path:     /dbase
+    defaults: { _controller: AcmeAppBundle:Default:dbase }
+
+product:
+    path:     /product
+    defaults: { _controller: AcmeAppBundle:Default:product }
+
+handle:
+    path:     /handle
+    defaults: { _controller: AcmeAppBundle:Default:handle }
